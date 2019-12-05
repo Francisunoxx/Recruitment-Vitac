@@ -1,0 +1,83 @@
+.divContent {
+  height: 100%;
+  width: 100%;
+}
+
+.divContent > .divFirstRow {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.divFirstRow > .divDetails {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.divLabel {
+  height: 100%;
+  width: 30%;
+}
+
+.divLabel > p {
+  margin-left: 15px;
+}
+
+.divInput {
+  height: 100%;
+  width: 70%;
+}
+
+.divInput > input {
+  height: 25px;
+  width: 70%;
+  border: none;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  margin-top: 0.5%;
+}
+
+.divContent > .divSecondRow {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.divSecondRow > .divHiringDetails {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.divHiringDetails > p {
+  margin: 0;
+}
+
+.divHiringDetails > label {
+  font-size: 16px;
+}
+
+.divLabelHire {
+  width: 17%;
+  display: flex;
+  justify-content: center;
+}
+
+.divLabelStatus {
+  width: 17%;
+  display: flex;
+  justify-content: center;
+}
+
+.divRadio {
+  width: 83%;
+  display: flex;
+  justify-content: center;
+}

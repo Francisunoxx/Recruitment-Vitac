@@ -1,0 +1,68 @@
+.divPaginationContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px;
+  border-top-style: solid;
+  border-top-color: #e7e7e7;
+}
+
+.divMarkForReview {
+  height: 100%;
+  width: 13%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divMarkForReview > button {
+  height: 70%;
+  width: 80%;
+  color: white;
+  background: #9d27b0;
+  border: none;
+  border-radius: 3px;
+}
+
+.divClearContent {
+  height: 70%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.divClearContent > .divCircle {
+  background: #039be5;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divCircle > h4 {
+  color: white;
+}
+
+.divPaginationContainer > label {
+  font-size: 20px;
+}
+
+.divPaginationContainer > img {
+  height: 25px;
+  cursor: pointer;
+}
+
+button {
+  margin-left: auto;
+  margin-right: 2%;
+  height: 70%;
+  color: white;
+  background: #4cb050;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}

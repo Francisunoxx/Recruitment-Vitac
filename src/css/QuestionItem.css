@@ -1,0 +1,161 @@
+.divContainer {
+  height: 90%;
+  width: 80%;
+  display: block;
+  overflow-y: auto;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.9);
+  overflow-y: auto;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.divA {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.divA > .divContent {
+  width: 100%;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.divA > .divSubSectionContent {
+  width: 100%;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.divContent > .divItem {
+  height: 100%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+}
+
+.divItem > p {
+  margin-top: 1%;
+  margin-bottom: 0.5%;
+}
+
+.divItem > input,
+.divSubSectionQuestion > input {
+  height: 30px;
+  width: 50%;
+  border: none;
+  border-bottom: 1px solid #6d6d6d;
+  margin-bottom: 0.5%;
+}
+
+.divSubSectionContent > .divSubSectionHeader {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divSubSectionHeader > .divSubSectionText {
+  height: 20%;
+  width: 100%;
+}
+
+.divSubSectionText > h4 {
+  margin-left: 5%;
+}
+
+.divSubSectionHeader > .divSubSectionDescription {
+  height: 80%;
+  width: 80%;
+}
+
+.divSubSectionContent > .divSubSectionItem {
+  height: 100%;
+  width: 89%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.divSubSectionQuestion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.divSubQuestionContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.divOptions > div:last-child {
+  margin-bottom: 5px;
+}
+
+.divSubQuestionContainer > .divFirstRow {
+  height: 10%;
+  width: 70%;
+  margin-left: auto;
+  display: flex;
+}
+
+.divFirstRow > label {
+  margin-left: 9.2%;
+}
+
+.divSubQuestionContainer > .divSecondRow {
+  height: 90%;
+  width: 100%;
+  display: flex;
+}
+
+.divSecondRow > .divSubQuestion {
+  width: 30%;
+  margin-top: 1%;
+}
+
+.divSecondRow > .divSubQuestionOptions {
+  width: 70%;
+}
+
+.divSubQuestionOptions > .divSubQuestion {
+  display: flex;
+  width: 7%;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.divSubQuestionOptions > .divSubQuestion > p > label {
+  margin-left: 165%;
+}
+
+.divSubQuestionRadioButton {
+  margin-bottom: -0.5%;
+}
+
+.divSubQuestionRadioButton > input {
+  margin-left: 9%;
+}
+
+.divQuestionContainer > .divNumbers {
+  height: 100%;
+  width: 20%;
+}
+
+.divButton {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}

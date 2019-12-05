@@ -1,0 +1,37 @@
+.divContent {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.divContent > div > p {
+  text-align: justify;
+  margin-top: 1% !important;
+  margin-left: 3%;
+  margin-right: 5%;
+}
+
+.divContent > .divFirstRow {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.divContent > .divSecondRow {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.divSecondRow > p {
+}
+
+.divContent > .divThirdRow,
+.divContent > .divFourthRow {
+  height: 15%;
+  width: 100%;
+}

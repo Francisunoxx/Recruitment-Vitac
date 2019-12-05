@@ -1,0 +1,70 @@
+.divContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.divModal {
+  width: 50%;
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  border-radius: 3px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.divModal > .divHeader {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  background-color: #ffffff;
+  border-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #039be5;
+  background: #039be5;
+}
+
+.divHeader > h3 {
+  color: white;
+  margin-left: 10px;
+}
+
+.divModal > .divBody {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.divBody > .divContent {
+  height: 90%;
+  width: 100%;
+}
+
+.divBody > .divButtons {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.divButtons > button {
+  margin-left: auto;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 26px;
+  width: 20%;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  background: #4cb050;
+  cursor: pointer;
+}

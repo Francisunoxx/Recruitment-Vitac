@@ -1,0 +1,21 @@
+.divText {
+  z-index: 99;
+  border: 2px solid #039be5;
+  position: absolute;
+  top: 5%;
+  display: flex;
+  flex: 1;
+}
+
+.divCount {
+  width: 35px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divCount > h4 {
+  color: white;
+}

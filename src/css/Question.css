@@ -1,0 +1,128 @@
+.divQuestionContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow-y: auto;
+}
+
+.divQuestionContainer > .divQuestion {
+  height: 100%;
+  width: 100%;
+}
+
+.divQuestion > .divHeaderContainer {
+  margin-top: 1%;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divHeaderContainer > .divHeader {
+  height: 100%;
+  width: 80%;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.divHeader > .divInfo {
+  display: flex;
+  align-items: center;
+}
+
+.divInfo > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divInfo > .divTime {
+  height: 100%;
+  width: 5%;
+}
+
+.divTime > h5 {
+  margin: 0;
+  margin-right: 10px;
+  color: gray;
+}
+
+.divTime > .divVl {
+  border-left: 2px solid gray;
+  height: 40%;
+}
+
+.divInfo > .divPoints {
+  height: 100%;
+  width: 4%;
+  background: green;
+  border-radius: 15px;
+}
+
+.divPoints > h5 {
+  color: white;
+}
+
+.divHeader > .divContent {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.divContent > .divSectionHeader {
+  height: 20%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  background: #039be5;
+  margin-right: auto;
+}
+
+.divSectionHeader > h4{
+  color: white;
+  margin-left: 5%;
+}
+
+.divContent > .divSection {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.divSection > h3{
+  margin: 0;
+  margin-left: 40px;
+}
+
+.divContent > .divMessage {
+  margin-bottom: 1%;
+  height: 90%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divMessage > p {
+  margin: 0;
+  text-align: justify;
+  line-height: 20px;
+}
+
+.divQuestion > .divBodyContainer {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
